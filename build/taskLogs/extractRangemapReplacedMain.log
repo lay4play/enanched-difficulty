@@ -1,0 +1,148 @@
+Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enancheddifficulty/build/classes/java/api
+Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enancheddifficulty/build/resources/api
+Symbol range map extraction starting
+Processing 48 files
+startProcessing "net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java" md5: b5d14270c1ea5558352ff58c2619dc05
+endProcessing "net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty.java" md5: d556dd36e6261b23604584d9006c89ea
+endProcessing "net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/EnanchedDifficulty.java" md5: db5edb518e0017880ddfc074c2ffb65b
+endProcessing "net/mcreator/enancheddifficulty/EnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/EnanchedDifficultyVariables.java" md5: 4c9e3985eea0a174c844b1eccff22a07
+endProcessing "net/mcreator/enancheddifficulty/EnanchedDifficultyVariables.java"
+
+startProcessing "net/mcreator/enancheddifficulty/IProxyEnanchedDifficulty.java" md5: 2bf86f7a500cf6b045e9500b884106aa
+endProcessing "net/mcreator/enancheddifficulty/IProxyEnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/ServerProxyEnanchedDifficulty.java" md5: 22717819851118651b29554a4f4faf92
+endProcessing "net/mcreator/enancheddifficulty/ServerProxyEnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal.java" md5: 49aa574a9f63dfd4f256cd632ac489e9
+endProcessing "net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal.java" md5: 800b96b25a93349efd2b57d78e03fa2e
+endProcessing "net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet.java" md5: 885915ffe7c15d527d8171b02479bfad
+endProcessing "net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal.java" md5: a3707c6b1a2eeca4ed7aa9d6b4d50a23
+endProcessing "net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal.java" md5: e7996f3562b713f2b1cb5a4fa50fb2c1
+endProcessing "net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal.java" md5: bbc06eab98c6efa7e0493fa3af8b2a0e
+endProcessing "net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal.java" md5: 74e346827956d1fb76040b8f9f185688
+endProcessing "net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal.java" md5: 19acf6b8c75e003bad75efe6e9c05975
+endProcessing "net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal.java" md5: cb8f405ba96cbd608c42cfd01ae98daa
+endProcessing "net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal.java" md5: 22ce12d7794f747ab5ce7d7995f66f77
+endProcessing "net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal.java" md5: 8e22adbdf349d41a974680594976494f
+endProcessing "net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal.java" md5: efee21637690d0ebde0f5efa59919f41
+endProcessing "net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal.java" md5: eb53e8019586494dcd7b7c712a9cca64
+endProcessing "net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal.java" md5: 262e405780c2ef861aea24e0e6020230
+endProcessing "net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet.java" md5: 57a193cfe6a3bea3d9f1293330e6fc70
+endProcessing "net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal.java" md5: 32caf7fa721f8e62c433e1079eed0198
+endProcessing "net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal.java" md5: 50885bb2110e764e5846d6aa223741df
+endProcessing "net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal.java" md5: 26772bb750497dcd9973a874b826def7
+endProcessing "net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal.java" md5: ac9b08a35a1bd8133de6947e595dde43
+endProcessing "net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal.java" md5: dec569b16a42fc9b20a1d48f98a929a1
+endProcessing "net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal.java" md5: 7bf233678dceca7c739e7f67b0346616
+endProcessing "net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal.java" md5: 5d3ff7b7af7802cfd6b14ad9a4f8a9f2
+endProcessing "net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal.java" md5: 491ad8ab8c11dfca239f8bf5fb969144
+endProcessing "net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal.java" md5: 293cba2e2e13ef7fb5c7659ee8573c1d
+endProcessing "net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal.java" md5: dcd0509d6c5f2b97d56b5e3b32beb091
+endProcessing "net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal.java" md5: 6baae12c622671864762f8ead732efae
+endProcessing "net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal.java" md5: eddde160e6e98ca02c3da6237a3d1d0f
+endProcessing "net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal.java"
+
+startProcessing "net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java" md5: 73881cce9e1a48e0af262e37437b4653
+endProcessing "net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java" md5: 467aa2ccc89819bc5d3ca992cdb4550a
+endProcessing "net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemCivilization.java" md5: a07cd0239398a9f0305d659339933091
+endProcessing "net/mcreator/enancheddifficulty/item/ItemCivilization.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemEngineBlock.java" md5: 7ecdd7007c11ed4bd0980f48298d2a4d
+endProcessing "net/mcreator/enancheddifficulty/item/ItemEngineBlock.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemFucksociety.java" md5: ccddb3aed80026115af9ad64156082fe
+endProcessing "net/mcreator/enancheddifficulty/item/ItemFucksociety.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java" md5: dea2bb7244ce6b9ade8a1e653cf6b084
+endProcessing "net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemORing.java" md5: f3cae0e8b26f625de6f94fe2f7fc5297
+endProcessing "net/mcreator/enancheddifficulty/item/ItemORing.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java" md5: 3c629a273878c5378c206c796362f68b
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld.java" md5: e7b909ad779c0604499568e3fdc0cf22
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTheInkSpots.java" md5: 8f25db52cf8202784c5fe7e5142f3af9
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTheInkSpots.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTurbine.java" md5: c862a6e27f6ffd2eeefc4664b8849fac
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTurbine.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTurbineBlade.java" md5: ab4260bd7cad26ad16486977bf67b49b
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTurbineBlade.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemTurbineDisk.java" md5: cb689ced7c12ba38b546efb29a5dfff7
+endProcessing "net/mcreator/enancheddifficulty/item/ItemTurbineDisk.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemWaterPump.java" md5: 6fcc2d9a369c6a006639cb690dc61184
+endProcessing "net/mcreator/enancheddifficulty/item/ItemWaterPump.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice.java" md5: 40d684f2930f266ed14bc3da3eef2146
+endProcessing "net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice.java"
+

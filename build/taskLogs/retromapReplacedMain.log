@@ -1,0 +1,1483 @@
+Processing 48 files
+Start Processing: net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty.java
+FOUND CONSTR method net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty/ElementsEnanchedDifficulty ()V net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty/ModElement
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[5237,5245]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[5611,5616]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[5625,5633]::isRemote->field_72995_K
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+Rename field net/minecraft/entity/Entity/world[5728,5733]::world->field_70170_p
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+Rename field net/minecraft/entity/Entity/world[5834,5839]::world->field_70170_p
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+Rename field net/minecraft/entity/Entity/world[6382,6387]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[6396,6404]::isRemote->field_72995_K
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+Rename field net/minecraft/entity/Entity/world[6503,6508]::world->field_70170_p
+New Key: class net/mcreator/enancheddifficulty/EnanchedDifficultyVariables
+FOUND CONSTR method net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty/ModElement/ModElement (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;I)V net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/EnanchedDifficulty.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: net/mcreator/enancheddifficulty/EnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/EnanchedDifficultyVariables.java
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/MapVariables/MapVariables ()V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/MapVariables
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[829,840]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[905,915]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1007,1016]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1036,1044]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1352,1365]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1368,1381]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1485,1498]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1501,1508]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldVariables/WorldVariables ()V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldVariables
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1837,1848]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1913,1923]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2015,2024]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2044,2052]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2265,2273]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2429,2442]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2571,2578]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2927,2933]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2942,2956]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2964,2980]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3038,3044]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3053,3058]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3092,3104]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3107,3123]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3164,3176]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3179,3185]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3193,3198]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3384,3393]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3565,3573]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3639,3652]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3655,3662]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3750,3757]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/enancheddifficulty/EnanchedDifficultyVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4227,4237]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4485,4496]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: net/mcreator/enancheddifficulty/EnanchedDifficultyVariables.java
+
+Start Processing: net/mcreator/enancheddifficulty/IProxyEnanchedDifficulty.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/enancheddifficulty/IProxyEnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/ServerProxyEnanchedDifficulty.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/enancheddifficulty/ServerProxyEnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal/BlockAluminumConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1638,1654]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1856,1860]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1876,1894]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1928,1940]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1952,1957]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1972,1983]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1994,2007]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2016,2029]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2038,2053]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2059,2073]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2135,2147]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockAluminumConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal/BlockBlackConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1626,1642]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1841,1845]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1910,1922]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1934,1939]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1988,1999]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2010,2023]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2032,2045]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2054,2069]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2077,2091]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2149,2157]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockBlackConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet/BlockBlueConstructionMetalSheet (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockBlueConstructionMetalSheet.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal/BlockBrownConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1626,1642]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1841,1845]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1910,1922]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1934,1939]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1988,1999]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2010,2023]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2032,2045]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2054,2069]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2077,2091]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2149,2157]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockBrownConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal/BlockConstantanConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1646,1662]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1866,1870]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1886,1904]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1940,1952]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1964,1969]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1984,1995]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2006,2019]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2028,2041]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2050,2065]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2147,2159]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockConstantanConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal/BlockCopperConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1982,1995]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2004,2017]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2026,2041]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2047,2061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2123,2135]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockCopperConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal/BlockCyanConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockCyanConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal/BlockElectrumConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1638,1654]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1856,1860]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1876,1894]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1928,1940]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1952,1957]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1972,1983]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1994,2007]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2016,2029]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2038,2053]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2059,2073]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2135,2147]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockElectrumConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal/BlockGoldConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1948,1959]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1970,1983]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1992,2005]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2014,2029]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2035,2049]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2111,2123]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockGoldConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal/BlockGrayConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockGrayConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal/BlockGreenConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1626,1642]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1841,1845]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1910,1922]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1934,1939]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1988,1999]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2010,2023]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2032,2045]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2054,2069]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2077,2091]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2149,2157]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockGreenConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal/BlockIronConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1948,1959]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1970,1983]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1992,2005]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2014,2029]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2035,2049]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2111,2123]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockIronConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal/BlockLeadConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1948,1959]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1970,1983]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1992,2005]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2014,2029]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2035,2049]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2111,2123]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockLeadConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal/BlockLightBlueConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1642,1658]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1861,1865]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1881,1899]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1934,1946]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1958,1963]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2012,2023]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2034,2047]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2056,2069]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2078,2093]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2101,2115]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2173,2181]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockLightBlueConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet/BlockLightGrayConstructionSheet (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockLightGrayConstructionSheet.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal/BlockLimeConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockLimeConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal/BlockMagentaConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1634,1650]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1851,1855]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1871,1889]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1922,1934]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1946,1951]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2000,2011]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2022,2035]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2044,2057]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2066,2081]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2089,2103]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2161,2169]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockMagentaConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal/BlockNickelConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1982,1995]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2004,2017]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2026,2041]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2047,2061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2123,2135]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockNickelConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal/BlockOrangeConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1994,2005]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2016,2029]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2038,2051]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2060,2075]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2083,2097]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2155,2163]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockOrangeConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal/BlockPinkConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1622,1638]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1836,1840]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1856,1874]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1904,1916]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1928,1933]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2004,2017]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2026,2039]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2071,2085]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2143,2151]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockPinkConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal/BlockPurpleConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1994,2005]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2016,2029]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2038,2051]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2060,2075]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2083,2097]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2155,2163]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockPurpleConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal/BlockRedConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1618,1634]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1831,1835]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1851,1869]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1898,1910]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1922,1927]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1976,1987]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1998,2011]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2020,2033]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2042,2057]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2065,2079]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2137,2145]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockRedConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal/BlockSilverConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1982,1995]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2004,2017]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2026,2041]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2047,2061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2123,2135]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockSilverConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal/BlockSteelConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1626,1642]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1841,1845]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1910,1922]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1934,1939]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1954,1965]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1976,1989]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1998,2011]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2020,2035]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2041,2055]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2117,2129]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockSteelConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal/BlockUraniumConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1634,1650]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1851,1855]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1871,1889]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1922,1934]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1946,1951]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1966,1977]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1988,2001]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2010,2023]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2032,2047]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2053,2067]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2129,2141]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockUraniumConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal/BlockWhiteConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1625,1641]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1840,1844]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1860,1878]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1909,1921]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1933,1938]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1987,1998]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2009,2022]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2031,2044]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2053,2068]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2076,2090]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2148,2156]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockWhiteConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal/BlockYellowConstructionSheetMetal (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1630,1646]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal/BlockCustom/BlockCustom ()V net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1846,1850]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1916,1928]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1940,1945]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1994,2005]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2016,2029]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2038,2051]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2060,2075]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2083,2097]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/tickRate (Lnet/minecraft/world/World;)I[2155,2163]::tickRate->func_149738_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/block/BlockYellowConstructionSheetMetal.java
+
+Start Processing: net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+FOUND CONSTR method net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty/TabEnanchedDifficulty (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[713,727]::getTabIconItem->func_78016_d
+Rename field net/minecraft/init/Items/CHICKEN[761,768]::CHICKEN->field_151076_bf
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemAnythingGoes/ItemAnythingGoes (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemAnythingGoes
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemAnythingGoes/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemAnythingGoes/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1507,1525]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1576,1590]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemCivilization.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCivilization/ItemCivilization (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemCivilization
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCivilization/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemCivilization/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1507,1525]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1576,1590]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemCivilization.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemEngineBlock.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemEngineBlock/ItemEngineBlock (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemEngineBlock
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemEngineBlock/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemEngineBlock/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1348,1360]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1368,1380]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1391,1409]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1458,1472]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1529,1550]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1589,1610]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1670,1685]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemEngineBlock.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemFucksociety.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemFucksociety/ItemFucksociety (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemFucksociety
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemFucksociety/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemFucksociety/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1501,1519]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1568,1582]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemFucksociety.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire/ItemIDontWantToSetTheWorldOnFire (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1612,1630]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1713,1727]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemORing.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemORing/ItemORing (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemORing
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemORing/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemORing/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1324,1336]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1344,1356]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1368,1386]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1423,1437]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1494,1515]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1554,1575]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1635,1650]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemORing.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTakeMeHome/ItemTakeMeHome (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTakeMeHome
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTakeMeHome/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTakeMeHome/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1495,1513]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1560,1574]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld/ItemTheEndOfTheWorld (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1531,1549]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1608,1622]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTheEndOfTheWorld.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTheInkSpots.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTheInkSpots/ItemTheInkSpots (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTheInkSpots
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTheInkSpots/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTheInkSpots/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1501,1519]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1568,1582]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTheInkSpots.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTurbine.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbine/ItemTurbine (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTurbine
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbine/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTurbine/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1332,1344]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1352,1364]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1375,1393]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1434,1448]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1505,1526]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1565,1586]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1646,1661]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTurbine.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTurbineBlade.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbineBlade/ItemTurbineBlade (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTurbineBlade
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbineBlade/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTurbineBlade/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1352,1364]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1372,1384]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1396,1414]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1465,1479]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1536,1557]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1596,1617]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1677,1692]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTurbineBlade.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemTurbineDisk.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbineDisk/ItemTurbineDisk (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemTurbineDisk
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemTurbineDisk/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemTurbineDisk/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1348,1360]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1368,1380]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1392,1410]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1459,1473]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1530,1551]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1590,1611]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1671,1686]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemTurbineDisk.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemWaterPump.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemWaterPump/ItemWaterPump (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemWaterPump
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemWaterPump/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemWaterPump/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1340,1352]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1360,1372]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1383,1401]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1446,1460]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1517,1538]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1577,1598]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1658,1673]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemWaterPump.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice/ItemWouldntItBeNice (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice/MusicDiscItemCustom/MusicDiscItemCustom ()V net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice/MusicDiscItemCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1525,1543]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1600,1614]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.item.ItemRecord
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemWouldntItBeNice.java
+

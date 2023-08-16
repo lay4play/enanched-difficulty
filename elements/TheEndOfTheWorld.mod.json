@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "The End Of The World",
+    "description": "The End of The World - Skeeter Davis",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:theendoftheworld"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

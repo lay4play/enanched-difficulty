@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "Anything Goes",
+    "description": "Anything Goes - Cole Porter",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:anythinggoes"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

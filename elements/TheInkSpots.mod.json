@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "The Ink Spots",
+    "description": "The Ink Spots - Ella Fitzgerald",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:theinkspots"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

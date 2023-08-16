@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "I Dont Want To Set The World On Fire",
+    "description": "I Dont Want To Set The World On Fire - The Ink Spots",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:idontwanttosettheworldonfire"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

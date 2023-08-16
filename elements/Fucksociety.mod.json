@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_11",
+    "name": "1.0_3-fucksociety.mp3 ",
+    "description": "1.0_3-fucksociety.mp3 - Mac Quayle",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:fucksociety"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

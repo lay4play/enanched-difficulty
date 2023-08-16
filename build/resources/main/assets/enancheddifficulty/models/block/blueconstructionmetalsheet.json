@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enancheddifficulty:blocks/lueheet",
+    "particle": "enancheddifficulty:blocks/lueheet"
+  }
+}

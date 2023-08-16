@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "Civilization",
+    "description": "Civilization (Bongo Bongo Bongo) - Andrews Sisters & Danny Kaye",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:civilization"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

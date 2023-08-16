@@ -1,0 +1,83 @@
+{
+  "test": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:ouldnt-t-e-ice-ono-emastered-_1_",
+        "stream": false
+      }
+    ]
+  },
+  "wouldntitbenice": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:ouldnt-t-e-ice-ono-emastered-_1_",
+        "stream": true
+      }
+    ]
+  },
+  "civilization": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:ndrews_isters_anny_aye_ivilization_ongo_ongo_ongo_1948",
+        "stream": true
+      }
+    ]
+  },
+  "anythinggoes": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:nything_goes_by_cole_porter",
+        "stream": true
+      }
+    ]
+  },
+  "theinkspots": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:lla_itzgerald_and_he_nkspots_nto_ach_ife_ome_ain_ust_all",
+        "stream": true
+      }
+    ]
+  },
+  "idontwanttosettheworldonfire": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:_ont_ant_o_et_he_orld_n_irehe_nk_pots",
+        "stream": true
+      }
+    ]
+  },
+  "takemehome": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:ohn-enver-ake-e-ome-ountry-oads-he-ltimate-ollection-with-yrics",
+        "stream": true
+      }
+    ]
+  },
+  "theendoftheworld": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:keeter-avis-he-nd-of-he-orld-19621",
+        "stream": true
+      }
+    ]
+  },
+  "fucksociety": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "enancheddifficulty:1.0_3-fucksociety.mp3_",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ouldntteice",
+    "name": "Take Me Home",
+    "description": "Take Me Home - John Denver",
+    "creativeTab": {
+      "value": "CUSTOM:EnanchedDifficulty"
+    },
+    "music": {
+      "value": "CUSTOM:takemehome"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

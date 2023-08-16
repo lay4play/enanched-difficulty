@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enancheddifficulty:blocks/sheetmetal_silver",
+    "particle": "enancheddifficulty:blocks/sheetmetal_silver"
+  }
+}
