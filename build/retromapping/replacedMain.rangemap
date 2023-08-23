@@ -1,7 +1,7 @@
-Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enancheddifficulty/build/classes/java/api
-Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enancheddifficulty/build/resources/api
+Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enanched-difficulty/build/classes/java/api
+Unsupposrted library path: /home/alessio/MCreatorWorkspaces/enanched-difficulty/build/resources/api
 Symbol range map extraction starting
-Processing 48 files
+Processing 56 files
 startProcessing "net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java" md5: b5d14270c1ea5558352ff58c2619dc05
 @|net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java|8|39|net.mcreator.enancheddifficulty|package|net.mcreator.enancheddifficulty|(file)
 Class Start: net.mcreator.enancheddifficulty.ClientProxyEnanchedDifficulty
@@ -3503,6 +3503,49 @@ Class Start: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 Class End  : net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 endProcessing "net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java"
 
+startProcessing "net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java" md5: c34e7e91196f64845cdbe5ec5b6baa90
+@|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|9|52|net.mcreator.enancheddifficulty.creativetab|package|net.mcreator.enancheddifficulty.creativetab|(file)
+Class Start: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|367|408|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|422|448|TabEnanchedDifficultyCells|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|false
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|457|494|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   Method Start: TabEnanchedDifficultyCells(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|559|567|instance|param|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|TabEnanchedDifficultyCells|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|505|531|TabEnanchedDifficultyCells|method|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|TabEnanchedDifficultyCells|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|532|558|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|579|587|instance|param|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|TabEnanchedDifficultyCells|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: TabEnanchedDifficultyCells(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|600|608|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|622|634|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|641|644|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|tab
+      @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|651|663|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      Anon Class Start: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells$1
+         Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|700|708|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|709|713|Side|class|net.minecraftforge.fml.relauncher.Side|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|714|720|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|726|734|Override|class|java.lang.Override|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|745|754|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|755|769|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|789|798|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|799|812|ItemEmptyCell|class|net.mcreator.enancheddifficulty.item.ItemEmptyCell|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|813|818|block|field|net.mcreator.enancheddifficulty.item.ItemEmptyCell|block
+         Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         Method Start: hasSearchBar()Z
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|842|850|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|851|855|Side|class|net.minecraftforge.fml.relauncher.Side|false
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|856|862|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+            @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|882|894|hasSearchBar|method|net.minecraft.creativetab.CreativeTabs|hasSearchBar|()Z
+         Method End: hasSearchBar()Z
+      Anon Class End: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells$1
+   Method End: initElements()V
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|945|957|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|945|957|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+   @|net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java|958|961|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|tab|
+Class End  : net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells
+endProcessing "net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java"
+
 startProcessing "net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java" md5: 467aa2ccc89819bc5d3ca992cdb4550a
 @|net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
 Class Start: net.mcreator.enancheddifficulty.item.ItemAnythingGoes
@@ -3559,6 +3602,222 @@ Class Start: net.mcreator.enancheddifficulty.item.ItemAnythingGoes
 Class End  : net.mcreator.enancheddifficulty.item.ItemAnythingGoes
 endProcessing "net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java"
 
+startProcessing "net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java" md5: 59bc4b219494077829c161e23c36ba2f
+@|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemBurntLimeCell
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|654|695|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|709|726|ItemBurntLimeCell|class|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|735|772|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|860|864|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|777|802|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|860|864|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|865|870|block|field|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|block|
+   Method Start: ItemBurntLimeCell(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|932|940|instance|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|ItemBurntLimeCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|887|904|ItemBurntLimeCell|method|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|ItemBurntLimeCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|905|931|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|952|960|instance|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|ItemBurntLimeCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemBurntLimeCell(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|973|981|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|995|1007|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1014|1022|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1023|1028|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1029|1032|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1043|1053|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1144|1149|event|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1064|1072|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1073|1077|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1078|1084|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1088|1096|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1110|1124|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1125|1143|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1155|1166|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1167|1197|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1198|1203|block|field|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell|block
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1212|1233|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1309|1319|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1328|1332|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1344|1354|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1362|1374|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1382|1394|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1404|1422|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1444|1459|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1481|1495|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1496|1522|TabEnanchedDifficultyCells|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|false
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1523|1526|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1537|1545|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1559|1580|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1660|1669|itemstack|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1606|1614|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1628|1649|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1650|1659|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1744|1757|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1771|1780|par2Block|param|net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1694|1702|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1718|1733|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1734|1743|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java|1759|1770|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemBurntLimeCell.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemBurntLimeCell
+endProcessing "net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java" md5: 4722395ab94cbc13f1e01623581e1ea4
+@|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemCaCO3Dust
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|649|690|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|704|717|ItemCaCO3Dust|class|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|726|763|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|847|851|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|768|793|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|847|851|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|852|857|block|field|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|block|
+   Method Start: ItemCaCO3Dust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|915|923|instance|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|ItemCaCO3Dust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|874|887|ItemCaCO3Dust|method|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|ItemCaCO3Dust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|888|914|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|935|943|instance|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|ItemCaCO3Dust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemCaCO3Dust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|956|964|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|978|990|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|997|1005|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1006|1011|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1012|1015|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1026|1036|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1127|1132|event|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1047|1055|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1056|1060|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1061|1067|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1071|1079|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1093|1107|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1108|1126|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1138|1149|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1150|1180|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1181|1186|block|field|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust|block
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1195|1216|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1288|1298|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1307|1311|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1323|1333|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1341|1353|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1361|1373|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1383|1401|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1419|1434|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1452|1466|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1467|1488|TabEnanchedDifficulty|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1489|1492|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1503|1511|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1525|1546|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1626|1635|itemstack|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1572|1580|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1594|1615|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1616|1625|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1710|1723|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1737|1746|par2Block|param|net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1660|1668|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1684|1699|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1700|1709|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java|1725|1736|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemCaCO3Dust.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemCaCO3Dust
+endProcessing "net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemCaODust.java" md5: 02bef304d5c414be03ac0779a2fa9d6d
+@|net/mcreator/enancheddifficulty/item/ItemCaODust.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemCaODust
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|649|690|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|704|715|ItemCaODust|class|net.mcreator.enancheddifficulty.item.ItemCaODust|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|724|761|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|843|847|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|766|791|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|843|847|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|848|853|block|field|net.mcreator.enancheddifficulty.item.ItemCaODust|block|
+   Method Start: ItemCaODust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|909|917|instance|param|net.mcreator.enancheddifficulty.item.ItemCaODust|ItemCaODust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|870|881|ItemCaODust|method|net.mcreator.enancheddifficulty.item.ItemCaODust|ItemCaODust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|882|908|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|929|937|instance|param|net.mcreator.enancheddifficulty.item.ItemCaODust|ItemCaODust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemCaODust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|950|958|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|972|984|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|991|999|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1000|1005|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1006|1009|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1020|1030|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1121|1126|event|param|net.mcreator.enancheddifficulty.item.ItemCaODust|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1041|1049|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1050|1054|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1055|1061|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1065|1073|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1087|1101|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1102|1120|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1132|1143|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1144|1174|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1175|1180|block|field|net.mcreator.enancheddifficulty.item.ItemCaODust|block
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1189|1210|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1280|1290|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1299|1303|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1315|1325|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1333|1345|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1353|1365|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1375|1393|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1409|1424|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1440|1454|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1455|1476|TabEnanchedDifficulty|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1477|1480|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1491|1499|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1513|1534|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1614|1623|itemstack|param|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1560|1568|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1582|1603|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1604|1613|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1698|1711|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1725|1734|par2Block|param|net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1648|1656|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1672|1687|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1688|1697|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemCaODust.java|1713|1724|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemCaODust.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemCaODust
+endProcessing "net/mcreator/enancheddifficulty/item/ItemCaODust.java"
+
 startProcessing "net/mcreator/enancheddifficulty/item/ItemCivilization.java" md5: a07cd0239398a9f0305d659339933091
 @|net/mcreator/enancheddifficulty/item/ItemCivilization.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
 Class Start: net.mcreator.enancheddifficulty.item.ItemCivilization
@@ -3614,6 +3873,78 @@ Class Start: net.mcreator.enancheddifficulty.item.ItemCivilization
    Class End  : net.mcreator.enancheddifficulty.item.ItemCivilization.MusicDiscItemCustom
 Class End  : net.mcreator.enancheddifficulty.item.ItemCivilization
 endProcessing "net/mcreator/enancheddifficulty/item/ItemCivilization.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemEmptyCell.java" md5: 6d99fc7c3778849525acf5f1a4d6c915
+@|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemEmptyCell
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|654|695|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|709|722|ItemEmptyCell|class|net.mcreator.enancheddifficulty.item.ItemEmptyCell|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|731|768|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|773|798|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|857|862|block|field|net.mcreator.enancheddifficulty.item.ItemEmptyCell|block|
+   Method Start: ItemEmptyCell(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|920|928|instance|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell|ItemEmptyCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|879|892|ItemEmptyCell|method|net.mcreator.enancheddifficulty.item.ItemEmptyCell|ItemEmptyCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|893|919|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|940|948|instance|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell|ItemEmptyCell|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemEmptyCell(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|961|969|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|983|995|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1002|1010|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1011|1016|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1017|1020|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1031|1041|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1132|1137|event|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1052|1060|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1061|1065|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1066|1072|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1076|1084|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1098|1112|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1113|1131|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1143|1154|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1155|1185|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1186|1191|block|field|net.mcreator.enancheddifficulty.item.ItemEmptyCell|block
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1200|1221|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1293|1303|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1312|1316|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1328|1338|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1346|1358|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1366|1378|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1388|1406|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1424|1439|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1457|1471|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1472|1498|TabEnanchedDifficultyCells|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|false
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1499|1502|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1513|1521|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1535|1556|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1636|1645|itemstack|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1582|1590|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1604|1625|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1626|1635|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1720|1733|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1747|1756|par2Block|param|net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1670|1678|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1694|1709|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1710|1719|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemEmptyCell.java|1735|1746|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemEmptyCell.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemEmptyCell
+endProcessing "net/mcreator/enancheddifficulty/item/ItemEmptyCell.java"
 
 startProcessing "net/mcreator/enancheddifficulty/item/ItemEngineBlock.java" md5: 7ecdd7007c11ed4bd0980f48298d2a4d
 @|net/mcreator/enancheddifficulty/item/ItemEngineBlock.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
@@ -3799,6 +4130,150 @@ Class Start: net.mcreator.enancheddifficulty.item.ItemIDontWantToSetTheWorldOnFi
 Class End  : net.mcreator.enancheddifficulty.item.ItemIDontWantToSetTheWorldOnFire
 endProcessing "net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java"
 
+startProcessing "net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java" md5: 7acbbed855eae454f3bb120ebcc4f3c1
+@|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemLimeStoneDust
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|649|690|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|704|721|ItemLimeStoneDust|class|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|730|767|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|855|859|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|772|797|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|855|859|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|860|865|block|field|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|block|
+   Method Start: ItemLimeStoneDust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|927|935|instance|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|ItemLimeStoneDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|882|899|ItemLimeStoneDust|method|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|ItemLimeStoneDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|900|926|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|947|955|instance|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|ItemLimeStoneDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemLimeStoneDust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|968|976|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|990|1002|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1009|1017|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1018|1023|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1024|1027|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1038|1048|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1139|1144|event|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1059|1067|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1068|1072|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1073|1079|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1083|1091|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1105|1119|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1120|1138|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1150|1161|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1162|1192|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1193|1198|block|field|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust|block
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1207|1228|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1304|1314|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1323|1327|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1339|1349|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1357|1369|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1377|1389|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1399|1417|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1439|1454|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1476|1490|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1491|1512|TabEnanchedDifficulty|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|false
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1513|1516|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1527|1535|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1549|1570|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1650|1659|itemstack|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1596|1604|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1618|1639|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1640|1649|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1734|1747|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1761|1770|par2Block|param|net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1684|1692|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1708|1723|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1724|1733|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java|1749|1760|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemLimeStoneDust.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemLimeStoneDust
+endProcessing "net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java" md5: 7c088d12b68db7f841c35f763163af18
+@|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|649|690|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|704|719|ItemNiCrMoShaft|class|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|728|765|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|851|855|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|770|795|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|851|855|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|856|861|block|field|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|block|
+   Method Start: ItemNiCrMoShaft(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|921|929|instance|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|ItemNiCrMoShaft|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|878|893|ItemNiCrMoShaft|method|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|ItemNiCrMoShaft|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|894|920|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|941|949|instance|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|ItemNiCrMoShaft|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemNiCrMoShaft(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|962|970|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|984|996|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1003|1011|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1012|1017|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1018|1021|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1032|1042|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1133|1138|event|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1053|1061|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1062|1066|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1067|1073|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1077|1085|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1099|1113|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1114|1132|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1144|1155|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1156|1186|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1187|1192|block|field|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft|block
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1201|1222|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1296|1306|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1315|1319|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1331|1341|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1349|1361|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1369|1381|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1390|1408|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1428|1443|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1463|1477|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1478|1499|TabEnanchedDifficulty|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|false
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1500|1503|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1514|1522|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1536|1557|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1637|1646|itemstack|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1583|1591|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1605|1626|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1627|1636|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1721|1734|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1748|1757|par2Block|param|net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1671|1679|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1695|1710|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1711|1720|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java|1736|1747|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemNiCrMoShaft
+endProcessing "net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java"
+
 startProcessing "net/mcreator/enancheddifficulty/item/ItemORing.java" md5: f3cae0e8b26f625de6f94fe2f7fc5297
 @|net/mcreator/enancheddifficulty/item/ItemORing.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
 Class Start: net.mcreator.enancheddifficulty.item.ItemORing
@@ -3870,6 +4345,78 @@ Class Start: net.mcreator.enancheddifficulty.item.ItemORing
    Class End  : net.mcreator.enancheddifficulty.item.ItemORing.ItemCustom
 Class End  : net.mcreator.enancheddifficulty.item.ItemORing
 endProcessing "net/mcreator/enancheddifficulty/item/ItemORing.java"
+
+startProcessing "net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java" md5: c47702bd7ed7655eff17c280033a84ac
+@|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)
+Class Start: net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|649|690|ElementsEnanchedDifficulty.ModElement.Tag|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement.Tag|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|704|727|ItemRefinedChromiteDust|class|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|736|773|ElementsEnanchedDifficulty.ModElement|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|867|871|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|778|803|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|867|871|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|872|877|block|field|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|block|
+   Method Start: ItemRefinedChromiteDust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|945|953|instance|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|ItemRefinedChromiteDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|894|917|ItemRefinedChromiteDust|method|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|ItemRefinedChromiteDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|918|944|ElementsEnanchedDifficulty|class|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|965|973|instance|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|ItemRefinedChromiteDust|(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V|instance|0
+   Method End: ItemRefinedChromiteDust(Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V
+   Method Start: initElements()V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|986|994|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1008|1020|initElements|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|initElements|()V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1027|1035|elements|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|elements
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1036|1041|items|field|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty|items
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1042|1045|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1056|1066|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1157|1162|event|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1077|1085|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1086|1090|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1091|1097|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1101|1109|Override|class|java.lang.Override|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1123|1137|registerModels|method|net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1138|1156|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1168|1179|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1180|1210|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1211|1216|block|field|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust|block
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1225|1246|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1328|1338|ItemCustom|class|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|false
+      @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1347|1351|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1363|1373|ItemCustom|method|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|ItemCustom|()V
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1381|1393|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1401|1413|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1423|1441|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1469|1484|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1512|1526|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1527|1548|TabEnanchedDifficulty|class|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|false
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1549|1552|tab|field|net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1563|1571|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1585|1606|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1686|1695|itemstack|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1632|1640|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1654|1675|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1676|1685|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1770|1783|par1ItemStack|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1797|1806|par2Block|param|net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1720|1728|Override|class|java.lang.Override|false
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1744|1759|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1760|1769|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java|1785|1796|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust.ItemCustom
+Class End  : net.mcreator.enancheddifficulty.item.ItemRefinedChromiteDust
+endProcessing "net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java"
 
 startProcessing "net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java" md5: 3c629a273878c5378c206c796362f68b
 @|net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java|9|45|net.mcreator.enancheddifficulty.item|package|net.mcreator.enancheddifficulty.item|(file)

@@ -1,4 +1,4 @@
-Processing 48 files
+Processing 56 files
 Start Processing: net/mcreator/enancheddifficulty/ClientProxyEnanchedDifficulty.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -1157,6 +1157,19 @@ Import: net.minecraft.creativetab.CreativeTabs
 Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
 End  Processing: net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficulty.java
 
+Start Processing: net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+FOUND CONSTR method net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells/TabEnanchedDifficultyCells (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[755,769]::getTabIconItem->func_78016_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.mcreator.enancheddifficulty.item.ItemEmptyCell
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/creativetab/TabEnanchedDifficultyCells.java
+
 Start Processing: net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
@@ -1178,6 +1191,84 @@ Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
 End  Processing: net/mcreator/enancheddifficulty/item/ItemAnythingGoes.java
 
+Start Processing: net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemBurntLimeCell/ItemBurntLimeCell (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemBurntLimeCell
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemBurntLimeCell/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemBurntLimeCell/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1362,1374]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1382,1394]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1406,1424]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1477,1491]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1553,1574]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1613,1634]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1694,1709]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemBurntLimeCell.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCaCO3Dust/ItemCaCO3Dust (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemCaCO3Dust
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCaCO3Dust/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemCaCO3Dust/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1341,1353]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1361,1373]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1385,1403]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1448,1462]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1519,1540]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1579,1600]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1660,1675]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemCaCO3Dust.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemCaODust.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCaODust/ItemCaODust (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemCaODust
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemCaODust/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemCaODust/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1333,1345]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1353,1365]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1377,1395]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1436,1450]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1507,1528]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1567,1588]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1648,1663]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemCaODust.java
+
 Start Processing: net/mcreator/enancheddifficulty/item/ItemCivilization.java
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
@@ -1198,6 +1289,32 @@ Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
 Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
 End  Processing: net/mcreator/enancheddifficulty/item/ItemCivilization.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemEmptyCell.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemEmptyCell/ItemEmptyCell (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemEmptyCell
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemEmptyCell/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemEmptyCell/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1346,1358]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1366,1378]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1390,1408]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1453,1467]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1529,1550]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1589,1610]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1670,1685]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficultyCells
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemEmptyCell.java
 
 Start Processing: net/mcreator/enancheddifficulty/item/ItemEngineBlock.java
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
@@ -1267,6 +1384,58 @@ Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
 End  Processing: net/mcreator/enancheddifficulty/item/ItemIDontWantToSetTheWorldOnFire.java
 
+Start Processing: net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemLimeStoneDust/ItemLimeStoneDust (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemLimeStoneDust
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemLimeStoneDust/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemLimeStoneDust/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1357,1369]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1377,1389]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1401,1419]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1472,1486]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1543,1564]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1603,1624]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1684,1699]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemLimeStoneDust.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft/ItemNiCrMoShaft (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1349,1361]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1369,1381]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1392,1410]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1459,1473]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1530,1551]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1590,1611]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1671,1686]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemNiCrMoShaft.java
+
 Start Processing: net/mcreator/enancheddifficulty/item/ItemORing.java
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
@@ -1292,6 +1461,32 @@ Import: net.minecraft.block.state.IBlockState
 Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
 Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
 End  Processing: net/mcreator/enancheddifficulty/item/ItemORing.java
+
+Start Processing: net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust/ItemRefinedChromiteDust (Lnet/mcreator/enancheddifficulty/ElementsEnanchedDifficulty;)V net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust
+FOUND CONSTR method net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust/ItemCustom/ItemCustom ()V net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1381,1393]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1401,1413]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1425,1443]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1508,1522]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1579,1600]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1639,1660]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1720,1735]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.enancheddifficulty.creativetab.TabEnanchedDifficulty
+Import: net.mcreator.enancheddifficulty.ElementsEnanchedDifficulty
+End  Processing: net/mcreator/enancheddifficulty/item/ItemRefinedChromiteDust.java
 
 Start Processing: net/mcreator/enancheddifficulty/item/ItemTakeMeHome.java
 New Key: class net/mcreator/enancheddifficulty/ElementsEnanchedDifficulty

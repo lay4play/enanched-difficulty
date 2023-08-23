@@ -336,6 +336,70 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "NiCrMoShaft",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LimeStoneDust",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CaCO3Dust",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CaODust",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmptyCell",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BurntLimeCell",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RefinedChromiteDust",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnanchedDifficultyCells",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -393,6 +457,7 @@
       "tile.electrumconstructionsheetmetal.name": "Electrum Construction Sheet Metal",
       "tile.magentaconstructionsheetmetal.name": "Magenta Construction Sheet Metal",
       "tile.blackconstructionsheetmetal.name": "Black Construction Sheet Metal",
+      "item.nicrmoshaft.name": "17 NiCrMo Shaft",
       "tile.goldconstructionsheetmetal.name": "Gold Construction Sheet Metal",
       "item.theendoftheworld.name": "The End Of The World",
       "item.theinkspots.name": "The Ink Spots",
@@ -406,16 +471,20 @@
       "item.record.anythinggoes.desc": "Anything Goes - Cole Porter",
       "item.fucksociety.name": "1.0_3-fucksociety.mp3 ",
       "item.record.takemehome.desc": "Take Me Home - John Denver",
+      "itemGroup.tabenancheddifficultycells": "ED - Cells",
       "item.oring.name": "O Ring",
       "tile.brownconstructionsheetmetal.name": "Brown Construction Sheet Metal",
       "item.turbineblade.name": "Turbine Blade",
       "item.record.theinkspots.desc": "The Ink Spots - Ella Fitzgerald",
+      "item.burntlimecell.name": "Burnt Lime Cell",
       "tile.limeconstructionsheetmetal.name": "Lime Construction Sheet Metal",
+      "item.caco3dust.name": "CaCO3 Dust",
       "item.engineblock.name": "Engine Block",
       "tile.greenconstructionsheetmetal.name": "Green Construction Sheet Metal",
       "tile.purpleconstructionsheetmetal.name": "Purple Construction Sheet Metal",
       "tile.aluminumconstructionsheetmetal.name": "Aluminum Construction Sheet Metal",
       "tile.lightblueconstructionsheetmetal.name": "Ligth Blue Construction Sheet Metal",
+      "item.caodust.name": "CaO Dust",
       "tile.orangeconstructionsheetmetal.name": "Orange Construction Sheet Metal",
       "item.wouldntitbenice.name": "Wouldn\u0027t It Be Nice",
       "item.civilization.name": "Civilization",
@@ -429,6 +498,7 @@
       "itemGroup.tabenancheddifficulty": "Enanched Difficulty",
       "item.record.fucksociety.desc": "1.0_3-fucksociety.mp3 - Mac Quayle",
       "tile.blueconstructionmetalsheet.name": "Blue Construction Sheet Metal",
+      "item.limestonedust.name": "Lime Stone Dust",
       "tile.uraniumconstructionsheetmetal.name": "Uranium Construction Sheet Metal",
       "item.record.theendoftheworld.desc": "The End of The World - Skeeter Davis",
       "tile.nickelconstructionsheetmetal.name": "Nickel Construction Sheet Metal",
@@ -437,7 +507,9 @@
       "item.record.wouldntitbenice.desc": "Wouldn\u0027t It Be Nice - Beach Boys",
       "tile.redconstructionsheetmetal.name": "Red Construction Sheet Metal",
       "tile.whiteconstructionsheetmetal.name": "White Construction Sheet Metal",
-      "tile.cyanconstructionsheetmetal.name": "Cyan Construction Sheet Metal"
+      "item.refinedchromitedust.name": "Refined Chromite Dust",
+      "tile.cyanconstructionsheetmetal.name": "Cyan Construction Sheet Metal",
+      "item.emptycell.name": "Empty Cell"
     }
   },
   "workspaceSettings": {

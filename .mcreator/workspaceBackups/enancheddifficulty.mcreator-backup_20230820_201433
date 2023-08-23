@@ -1,0 +1,460 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "EnanchedDifficulty",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TurbineBlade",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TurbineDisk",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Turbine",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaterPump",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ORing",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EngineBlock",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WhiteConstructionSheetMetal",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedConstructionSheetMetal",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueConstructionMetalSheet",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LimeConstructionSheetMetal",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightBlueConstructionSheetMetal",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyanConstructionSheetMetal",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenConstructionSheetMetal",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrangeConstructionSheetMetal",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowConstructionSheetMetal",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrownConstructionSheetMetal",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackConstructionSheetMetal",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GrayConstructionSheetMetal",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightGrayConstructionSheet",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleConstructionSheetMetal",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagentaConstructionSheetMetal",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PinkConstructionSheetMetal",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AluminumConstructionSheetMetal",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ConstantanConstructionSheetMetal",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperConstructionSheetMetal",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumConstructionSheetMetal",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldConstructionSheetMetal",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronConstructionSheetMetal",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadConstructionSheetMetal",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NickelConstructionSheetMetal",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverConstructionSheetMetal",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelConstructionSheetMetal",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UraniumConstructionSheetMetal",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WouldntItBeNice",
+      "type": "musicdisc",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Civilization",
+      "type": "musicdisc",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AnythingGoes",
+      "type": "musicdisc",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheInkSpots",
+      "type": "musicdisc",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IDontWantToSetTheWorldOnFire",
+      "type": "musicdisc",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TakeMeHome",
+      "type": "musicdisc",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheEndOfTheWorld",
+      "type": "musicdisc",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Fucksociety",
+      "type": "musicdisc",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "test",
+      "file": "ouldnt-t-e-ice-ono-emastered-_1_",
+      "category": "master"
+    },
+    {
+      "name": "wouldntitbenice",
+      "file": "ouldnt-t-e-ice-ono-emastered-_1_",
+      "category": "music"
+    },
+    {
+      "name": "civilization",
+      "file": "ndrews_isters_anny_aye_ivilization_ongo_ongo_ongo_1948",
+      "category": "music"
+    },
+    {
+      "name": "anythinggoes",
+      "file": "nything_goes_by_cole_porter",
+      "category": "music"
+    },
+    {
+      "name": "theinkspots",
+      "file": "lla_itzgerald_and_he_nkspots_nto_ach_ife_ome_ain_ust_all",
+      "category": "music"
+    },
+    {
+      "name": "idontwanttosettheworldonfire",
+      "file": "_ont_ant_o_et_he_orld_n_irehe_nk_pots",
+      "category": "music"
+    },
+    {
+      "name": "takemehome",
+      "file": "ohn-enver-ake-e-ome-ountry-oads-he-ltimate-ollection-with-yrics",
+      "category": "music"
+    },
+    {
+      "name": "theendoftheworld",
+      "file": "keeter-avis-he-nd-of-he-orld-19621",
+      "category": "music"
+    },
+    {
+      "name": "fucksociety",
+      "file": "1.0_3-fucksociety.mp3_",
+      "category": "music"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "tile.silverconstructionsheetmetal.name": "Silver Construction Sheet Metal",
+      "item.takemehome.name": "Take Me Home",
+      "tile.electrumconstructionsheetmetal.name": "Electrum Construction Sheet Metal",
+      "tile.magentaconstructionsheetmetal.name": "Magenta Construction Sheet Metal",
+      "tile.blackconstructionsheetmetal.name": "Black Construction Sheet Metal",
+      "tile.goldconstructionsheetmetal.name": "Gold Construction Sheet Metal",
+      "item.theendoftheworld.name": "The End Of The World",
+      "tile.steelconstructionsheetmetal.name": "Steel Construction Sheet Metal",
+      "item.theinkspots.name": "The Ink Spots",
+      "tile.yellowconstructionsheetmetal.name": "Yellow Construction Sheet Metal",
+      "tile.constantanconstructionsheetmetal.name": "Constantan Construction Sheet Metal",
+      "item.idontwanttosettheworldonfire.name": "I Dont Want To Set The World On Fire",
+      "item.waterpump.name": "Water Pump",
+      "tile.ironconstructionsheetmetal.name": "Iron Construction Sheet Metal",
+      "tile.leadconstructionsheetmetal.name": "Lead Construction Sheet Metal",
+      "item.record.anythinggoes.desc": "Anything Goes - Cole Porter",
+      "item.fucksociety.name": "1.0_3-fucksociety.mp3 ",
+      "item.record.takemehome.desc": "Take Me Home - John Denver",
+      "item.oring.name": "O Ring",
+      "tile.brownconstructionsheetmetal.name": "Brown Construction Sheet Metal",
+      "item.turbineblade.name": "Turbine Blade",
+      "item.record.theinkspots.desc": "The Ink Spots - Ella Fitzgerald",
+      "tile.limeconstructionsheetmetal.name": "Lime Construction Sheet Metal",
+      "item.engineblock.name": "Engine Block",
+      "tile.greenconstructionsheetmetal.name": "Green Construction Sheet Metal",
+      "tile.purpleconstructionsheetmetal.name": "Purple Construction Sheet Metal",
+      "tile.aluminumconstructionsheetmetal.name": "Aluminum Construction Sheet Metal",
+      "tile.lightblueconstructionsheetmetal.name": "Ligth Blue Construction Sheet Metal",
+      "tile.orangeconstructionsheetmetal.name": "Orange Construction Sheet Metal",
+      "item.wouldntitbenice.name": "Wouldn\u0027t It Be Nice",
+      "item.civilization.name": "Civilization",
+      "tile.copperconstructionsheetmetal.name": "Copper Construction Sheet Metal",
+      "tile.grayconstructionsheetmetal.name": "Gray Construction Sheet Metal",
+      "item.turbine.name": "Turbine",
+      "tile.lightgrayconstructionsheet.name": "Light Gray Construction Sheet Metal",
+      "item.turbinedisk.name": "Turbine Disk",
+      "tile.pinkconstructionsheetmetal.name": "Pink Construction Sheet Metal",
+      "item.anythinggoes.name": "Anything Goes",
+      "itemGroup.tabenancheddifficulty": "Enanched Difficulty",
+      "item.record.fucksociety.desc": "1.0_3-fucksociety.mp3 - Mac Quayle",
+      "tile.blueconstructionmetalsheet.name": "Blue Construction Sheet Metal",
+      "tile.uraniumconstructionsheetmetal.name": "Uranium Construction Sheet Metal",
+      "item.record.theendoftheworld.desc": "The End of The World - Skeeter Davis",
+      "tile.nickelconstructionsheetmetal.name": "Nickel Construction Sheet Metal",
+      "item.record.idontwanttosettheworldonfire.desc": "I Dont Want To Set The World On Fire - The Ink Spots",
+      "item.record.civilization.desc": "Civilization (Bongo Bongo Bongo) - Andrews Sisters \u0026 Danny Kaye",
+      "item.record.wouldntitbenice.desc": "Wouldn\u0027t It Be Nice - Beach Boys",
+      "tile.redconstructionsheetmetal.name": "Red Construction Sheet Metal",
+      "tile.whiteconstructionsheetmetal.name": "White Construction Sheet Metal",
+      "tile.cyanconstructionsheetmetal.name": "Cyan Construction Sheet Metal"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "enancheddifficulty",
+    "modName": "Enanched Difficulty",
+    "version": "1.0.0",
+    "author": "alessio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.enancheddifficulty",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
